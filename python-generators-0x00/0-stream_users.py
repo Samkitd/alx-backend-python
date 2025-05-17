@@ -22,6 +22,6 @@ def stream_users():
     cursor.close()
     connection.close()
 
-# if __name__ == "__main__":
-#     for user in islice(stream_users(), 20):
-#         print(user)
+if __name__ == "__main__":
+    for user in islice(stream_users(), 20):
+        print(user)
