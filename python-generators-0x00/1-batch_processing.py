@@ -29,3 +29,4 @@ def batch_processing(batch_size):
         for user in batch:                             # Loop 3
             if user['age'] > 25:
                 yield user 
+        return
